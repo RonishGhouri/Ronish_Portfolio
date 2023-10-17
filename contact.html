@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Resume</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+<body style="background-color: lightblue;">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <div class="container">
+                <a class="navbar-brand active" href="./index.html" style="color: white;">Ronish Ghouri</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./about.html" style="color: white;">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./project.html" style="color: white;">Project</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./resume.html" style="color: white;">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html" style="color: white;">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+           <!-- CV Section -->
+<section id="cv" class="cv-section">
+    <div class="container col-md-5" style="background-color: rgb(65, 65, 238); padding-bottom:  20px; margin-top: 100px; margin-bottom: 70px;">
+        <h2 class="c">Contact</h2>
+        <form action="#" method="POST"> <!-- Add your form action URL -->
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</section>
+
+
+</body>
+</html>
